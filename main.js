@@ -2,8 +2,8 @@
 /**
  * funtion "equals" with two parameters: 
  * 
- * @param {*} a 
- * @param {*} b 
+ * @param {number} a 
+ * @param {number} b 
  * @returns true if the numbers are equal
  * false if the numbers are different
  */
@@ -179,7 +179,6 @@ invers(12345);
         return false;
     }
     else if(n % 2 !== 0) {
-        console.log(`${n} is odd`)    
         return true;
     }   
 }
